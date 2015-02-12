@@ -1,0 +1,19 @@
+{
+  "name": "static.livesafemobile.com",
+  "version": "1.0.0",
+  "description": "Tools and files for use on our static asset domain",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:LiveSafe/static.livesafemobile.com.git"
+  },
+  "author": "Spain <spain@livesafemobile.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LiveSafe/static.livesafemobile.com/issues"
+  },
+  "homepage": "https://github.com/LiveSafe/static.livesafemobile.com"
+}
