@@ -4,7 +4,8 @@
   "description": "Tools and files for use on our static asset domain",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "./node_modules/gulp/bin/gulp.js test"
+    "test": "./node_modules/gulp/bin/gulp.js test",
+    "cleanup": "./node_modules/gulp/bin/gulp.js cleanup"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/LiveSafe/static.livesafemobile.com/issues"
   },
-  "homepage": "https://github.com/LiveSafe/static.livesafemobile.com"
+  "homepage": "https://github.com/LiveSafe/static.livesafemobile.com",
+  "devDependencies": {
+    "aws-sdk": "^2.1.10",
+    "gulp": "^3.8.11",
+    "ls-lodash": "^2.2.1",
+    "q": "^1.1.2"
+  }
 }
